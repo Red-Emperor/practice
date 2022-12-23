@@ -1,0 +1,180 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: left;
+}
+
+
+body{
+	font-size: 12px;
+	color: #000;
+	background: url("../img/2.jpg") repeat-x;/*加载背景图*/
+	background-size: 100% 100%;/* 让背景图基于容器大小伸缩(此条属性必须设置否则可能无效) */
+	background-attachment: fixed;/* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+	
+}
+.page{
+	width: 960px;
+	margin: 0 auto;
+	background:rgba(0,0,0,.0);
+	overflow: hidden;
+}
+.nav{
+	width: 100%;
+	background:rgba(100,149,237,.5);
+	overflow: hidden;
+}
+
+.nav ul{
+	width: 700px;
+	overflow: hidden;/*当内容溢出元素框时,会被修剪*/
+	margin: 5px 10px 5px 0;/*设置上下左右边距*/
+}
+.nav ul li{
+	width: 120px;/*属性设置元素的宽度*/
+	text-align: center;/*文本的水平对齐方式*/
+	line-height: 50px;/*设置行间的距离*/
+	font-size: 14px;/*字体大小*/
+	color: #FFF;
+	float: left;/*位置*/
+}
+
+.wi{
+	width: 120px;/*属性设置元素的宽度*/
+	text-align: center;/*文本的水平对齐方式*/
+	line-height: 50px;/*设置行间的距离*/
+	font-size: 14px;/*字体大小*/
+	color: #FFF;
+	float: right;/*位置*/
+	margin: 5px 10px 5px 0px;
+	
+}
+
+.mid{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+}
+.banner{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;/*保持原有尺寸比例。但部分内容可能被剪切*/
+}
+.left{
+	width: 300px;
+	margin-right: 20px;
+}
+.right{
+	width: 620px;
+}
+p.title{
+	width: 100%;
+	line-height: 38px;
+	text-indent: 1em;
+	background:rgba(100,149,237,.5);
+	color: #FFF;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.jj{
+	width: 260px;
+	margin: 0 auto 20px;
+}
+.jj img{
+	display: block;
+	width: 220px;
+	height: 220px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 3px solid #53A3B9;
+	margin: 0 auto 20px;
+}
+.jj p{
+	line-height: 26px;
+	margin-bottom: 5px;
+	color: #FFF;
+}
+
+.login{
+	width: 260px;
+	margin: 0 auto 20px;
+}
+
+.login input{
+	width: 100%;
+	height: 35px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #000;
+	padding: 8px;
+	margin-bottom: 15px;
+}
+.login button{
+	text-align: center;
+	width: 100%;
+	height: 35px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background:rgba(100,149,237,.5);
+	font-size: 14px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+
+.wz{
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	
+}
+
+.wz p{
+	text-indent: 2em;
+	line-height: 35px;
+	margin-bottom: -11px;/*设置下边距 */
+	color: #FFF;
+	
+}
+
+.wz img{
+	width: 65%;
+	object-fit: cover;/*保持原有尺寸比例。但部分内容可能被剪切*/
+	margin-left: 110px;
+	margin-top: -12px;
+	
+}
+
+.foot{
+	width: 100%;
+	background:rgba(100,149,237,.5);
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	color: #FFF;
+}
+
+
