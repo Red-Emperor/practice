@@ -64,4 +64,5 @@ log/
 *.tar
 *.pid
 *.orig
+*.xml
 temp/
