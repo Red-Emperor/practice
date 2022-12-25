@@ -7,6 +7,7 @@ public class user1 {
     private String email;
     private int age;
 
+
     public user1() {
     }
 
