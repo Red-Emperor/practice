@@ -1,20 +1,8 @@
 package practice.characterString;
 
-public class String {
-    public String(java.lang.String abc) {
-
-    }
-
-    public String(java.lang.String[] chs) {
-
-    }
-
-    public String() {
-
-    }
-
+public class StringStructure {
     public static void main(String[] args) {
-//        直接赋值的方式创建字符串对象
+        //        直接赋值的方式创建字符串对象
         java.lang.String s = "abc";
         System.out.println(s);
 
@@ -28,19 +16,16 @@ public class String {
         System.out.println(s2);
 
         //public String(char[] chs)：根据字符数组的内容，来创建字符串对象
-        java.lang.String[] chs={"a","b","c"};
+        char[] chs ={'a', 'b', 'd'};
         String s3=new String(chs);
         System.out.println(s3);
 
+
         //public String(byte[] bys)：根据字节数组的内容，来创建字符串对象
 //        场景：网络传输数据都是字节信息
-        byte[] bytes={98,78,32};
-        String s4=new String(java.lang.String.valueOf(bytes));
+        byte[] b={97, 98, 99};
+        String s4=new String(b);
         System.out.println(s4);
 
-
-
     }
-
-
 }
