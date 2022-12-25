@@ -10,7 +10,7 @@ public class KeyboardEntryComparison {
         String s2 = "abc";
         System.out.println(s1 == s2);
 
-//        结论：只要比较字符串的内容，就必须要用Strig里面的方法
+//        结论：只要比较字符串的内容，就必须要用String里面的方法
 
     }
 }
