@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class demo {
     /**
-     * 案例：从集合中遍历元素且删除。
+     案例：从集合中遍历元素且删除。
      */
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
