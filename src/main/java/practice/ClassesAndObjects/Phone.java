@@ -2,13 +2,18 @@ package practice.ClassesAndObjects;
 
 public class Phone {
 
-//    属性
+    //成员变量
     String brand;
-    double price;
+    int price;
 
-//    行为
-    public void call(){
-        System.out.println("这是行为");
+    //成员方法
+    public void call() {
+        System.out.println("打电话");
     }
+
+    public void sendMessage() {
+        System.out.println("发短信");
+    }
+
 
 }
